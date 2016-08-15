@@ -1,0 +1,48 @@
+Current changelog: v0.3.2 Testing (2014/09/08)
+[fixed?] drowsy attempt to fix a silly bug with default modstring
+[new] new default config.txt: --deknox, --deota, --desurveillance
+[new] --deknox, --deota, --debloat, --desurveillance, --really-remove,
+      --undo features added. See README.txt or search files/root.sh
+      for ### DEBLOAT, ### DEKNOX, ### DEOTA, ## DESURVEILLANCE,
+      etc. to see exactly what they do.
+[change] starting to change verbage from 'phone' to 'device'
+[note] v0.3.1 would have been too confusing, so straight to v0.3.2.
+
+v0.3.0.1 (2014/09/07)
+[fixed] Issue with find.exe when other find executables are in PATH.
+
+v0.3.0 (2014/09/07)
+[new] License: this project is licensed under GPLv3.
+[new] Added ADB binaries for Linux and Mac OS X.
+[note] This means we have experimental (untested) support for Intel Macs now.
+[changed] Restructuring of post-root procedures:
+  no more hard-coded commands for installing SuperSU, etc.
+  These things are present in files/root.sh instead and may be freely edited.
+[changed] Command-line parameters have DRASTICALLY changed. See the README.txt.
+[new] Added modstrings.txt, config.txt
+[changed] Busybox no longer bundled due to licensing concerns;
+  curl added for downloading busybox, instead.
+
+Older changelogs:
+v0.2.2 (2014/09/04)
+Fixed INSTALL.cmd hanging when launching ADB, or not running
+  properly as an administrator.
+Further improved error handling, with more detailed steps for
+  troubleshooting, and retries.
+User acknowledgment now required for certain tasks with (Y/N).
+Fixed date on previous update being in the future... Hmm...
+
+v0.2.1 (2014/09/03)
+** pulled, did not fix adb hang issue after all **
+
+v0.2 (2014/09/03)
+Code cleaned up a bit, but still gives verbose debug messages
+  since they might be important. Can disable those with --brief.
+Some error handling in the install script.
+Everything is orchestrated from a single batch file ("one-click",
+  though multiple scripts are still used internally).
+Should work properly with Windows and Linux, and come
+  bundled with ADB for Windows. Thanks, NetworkingPro!
+
+v0.1 (2014/08/31)
+Initial release.

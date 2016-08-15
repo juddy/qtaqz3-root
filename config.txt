@@ -1,0 +1,1 @@
+./root.sh --root --deknox --deota --desurveillance

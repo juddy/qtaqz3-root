@@ -1,0 +1,84 @@
+  Can we start up ADB?
+  Yes!
+
+  Can a device be found?
+  Yes!
+
+  Can we communicate with a device?
+  Yes! (This message came from your device.)
+
+* READ the README file before continuing.
+*** Please wait until your device is out of Installer mode before continuing.
+    You can tell by looking at the USB mode in your Notifications.
+    Your device automatically switches out of Installer in about 30 seconds.
+    If you aren't sure, just wait 30 seconds and then press Y.
+
+
+* WARNING: This process may void your warranty or cause unexpected damage
+* to your device. By using this software, you are accepting these risks.
+
+* This is your last chance to back out!
+* Please ensure your device does not have any busy apps running!
+
+
+* Cleaned!
+
+push: ../files/arm/su -> /data/local/tmp/ghetto/arm/su
+push: ../files/arm/chattr.pie -> /data/local/tmp/ghetto/arm/chattr.pie
+push: ../files/arm/chattr -> /data/local/tmp/ghetto/arm/chattr
+push: ../files/META-INF/com/google/android/updater-script -> /data/local/tmp/ghetto/META-INF/com/google/android/updater-script
+push: ../files/META-INF/com/google/android/update-binary -> /data/local/tmp/ghetto/META-INF/com/google/android/update-binary
+push: ../files/META-INF/CERT.RSA -> /data/local/tmp/ghetto/META-INF/CERT.RSA
+push: ../files/META-INF/MANIFEST.MF -> /data/local/tmp/ghetto/META-INF/MANIFEST.MF
+push: ../files/META-INF/CERT.SF -> /data/local/tmp/ghetto/META-INF/CERT.SF
+push: ../files/x86/su -> /data/local/tmp/ghetto/x86/su
+push: ../files/x86/chattr.pie -> /data/local/tmp/ghetto/x86/chattr.pie
+push: ../files/x86/chattr -> /data/local/tmp/ghetto/x86/chattr
+push: ../files/common/Superuser.apk -> /data/local/tmp/ghetto/common/Superuser.apk
+push: ../files/common/install-recovery.sh -> /data/local/tmp/ghetto/common/install-recovery.sh
+push: ../files/common/99SuperSUDaemon -> /data/local/tmp/ghetto/common/99SuperSUDaemon
+push: ../files/asl -> /data/local/tmp/ghetto/asl
+push: ../files/UPDATE-SuperSU.zip -> /data/local/tmp/ghetto/UPDATE-SuperSU.zip
+push: ../files/ghettoroot -> /data/local/tmp/ghetto/ghettoroot
+push: ../files/busybox -> /data/local/tmp/ghetto/busybox
+push: ../files/root.sh -> /data/local/tmp/ghetto/root.sh
+19 files pushed. 0 files skipped.
+3637 KB/s (5239284 bytes in 1.406s)
+
+*** Necessary files pushed and chmod'd.
+    Give it a brief moment or your device will be overwhelmed.
+
+* Preparation files transferred!
+
+
+************************************************
+native ghettoroot, aka cube-towel, aka towelroot
+running with pid 4674
+Kernel version: Linux version 3.10.0 (jenkins@mars) (gcc version 4.7 (GCC) ) #4 SMP PREEMPT Fri Apr 15 17:36:37 CST 2016
+No matching device found. Trying default.
+
+modstring: 1337 0 1 0 4 0
+************************************************
+
+[DEBUG] init_exploit:1153: function start
+[DEBUG] send_magicmsg:762: function start
+[DEBUG] make_socket:726: function start
+[DEBUG] search_goodnum:883: function start
+[DEBUG] search_goodnum:886: loop FUTEX_CMP_REQUEUE_PI
+[DEBUG] accept_socket:1118: function start
+[DEBUG] accept_socket:1140: Socket tastefully accepted.
+[DEBUG] make_socket:749: function exit
+[DEBUG] wake_actionthread:660: function start
+[DEBUG] make_sigaction:614: function start
+[DEBUG] wake_actionthread:684: loop while waiting for other thread
+[DEBUG] make_sigaction:633: loop while waiting for other thread
+[DEBUG] wake_actionthread:712: mutex unlock
+[DEBUG] wake_actionthread:715: function exit
+[DEBUG] wake_actionthread:660: function start
+[DEBUG] make_sigaction:614: function start
+[DEBUG] wake_actionthread:684: loop while waiting for other thread
+[DEBUG] make_sigaction:633: loop while waiting for other thread
+[DEBUG] wake_actionthread:712: mutex unlock
+[DEBUG] wake_actionthread:715: function exit
+[DEBUG] search_goodnum:902: single FUTEX_CMP_REQUEUE_PI
+[DEBUG] search_goodnum:905: loop while waiting for other thread
