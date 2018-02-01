@@ -1,4 +1,4 @@
-#Hacked version of ghettoroot
+# Hacked version of ghettoroot
 
 Tested on Linux - macOS, BSD, Windows may work just as well.
 
@@ -7,7 +7,7 @@ This is really just a means to capture what I suspect were the pivotal steps to 
 I have changed permissions and ownership on a number of files (diff from the [ghettoroot-v0.3.2.zip distribution here:])http://forum.xda-developers.com/attachment.php?attachmentid=2930321&d=1410249799)).
 
 
-##Prerequisites
+## Prerequisites
 
 - Install adb
 
@@ -19,7 +19,7 @@ Debian:
 
     adb install SuperSU.apk
 
-##ghettoize
+## ghettoize
 
 Connect your formerly useless Verizon tablet via USB, enable developer mode and debugging (do the tap dance).
 
@@ -35,7 +35,7 @@ If this works, you're in good shape. Go ahead and remount the root filesystem RW
 
     remount -o remount,rw /
 
-#Bugs
+# Bugs
 
 Yes. Many - the output from the INSTALL.sh script will report loads of failures.
 
